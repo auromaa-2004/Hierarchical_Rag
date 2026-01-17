@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+env/
+venv/
+.venv/
+Lib/
+Scripts/
+Include/
+pyvenv.cfg
+
+# Environment variables
+.env
+
+# Vector DB / embeddings
+chroma_db/
+rag_cag_project/chroma_db/
+
+# Data (PDFs can be large/private)
+data/
+rag_cag_project/data/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
